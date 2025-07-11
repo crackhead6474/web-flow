@@ -1,12 +1,11 @@
 /* main styles */
-body{
-    background-color: #d6dded71;
-}
-main{
-    margin:116px auto 0;
-    padding: 0 150px;
+
+.main1{
+    padding-top: 132px;
+    background-color: #D6DDED;
+   
     
-    
+
 }
 /* nav styles */
 
@@ -18,7 +17,7 @@ nav {
     justify-content: space-between;
     padding: 50px 0;
     width: 100% ;
-    margin: 0 auto 158px;
+    margin: 0 auto ;
     
 }
 
@@ -43,14 +42,14 @@ header {
 
     width: 100%;
     max-width: 905px;
-    margin: 0 auto 152px;
+    margin: 0 auto ;
 }
 /* action styles */
 .action {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:132px auto 176px auto ;
+    margin:0 auto 176px auto ;
     
     
     gap: 50px;
@@ -282,6 +281,62 @@ max-height: 342px;
     width: 100%;
     max-width: 528px;
 }
+/* footer styles */
+.footer {
+    max-width:1440px;
+    height: 428px;
+    background-color:#FFFFFF ;
+    border: 1px solid #00000010;
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 531px;
+    height: 221px;
+    width: 100%;
+    gap: 30px;
+     margin: 0 auto 104px;
+    text-align: center;
+    
+}
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-main h2{
+    margin-bottom:  8px;
+    max-width: 291px;
+    
+    font-size: 100px;
+    font-weight: 600;
+    line-height: normal;
+}
+.social-links {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+     padding-bottom: 104px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.footer-main p{
+     color: #8987A1;
+}
+
+
 
 
 /* shared  styles */
@@ -345,7 +400,10 @@ max-height: 342px;
 
 }
 
-nav h3 {
+.logo {
     max-width: 99px;
+    font-size: 34;
+    font-weight: 800;
+    line-height: 150%;
 }
 
