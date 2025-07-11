@@ -65,14 +65,11 @@ header {
     
     }
 .action-content {
-    max-width: 517px;
-    margin: 62.5px 220px 0;
-    
-     
-
-    
-
+    flex: 1;
+    min-width: 280px;
+    margin: 0 auto;
 }
+
 .action h3 {
     font-size: 42px;
     margin-bottom: 23px;;
@@ -81,7 +78,6 @@ header {
     
     max-width: 403px;
     height: 100%;
-    height: auto;
     border-radius: 48px;
 }
 .action p{
@@ -90,6 +86,7 @@ header {
     font-size :24px;
     color:#25243274;
     margin: 24px 0 48px;
+    max-width: 517px;
 }
 .action button {
     width: 229px;
@@ -108,9 +105,10 @@ header {
     background-color: #4d47ff2e;
     
     max-width: 1140px;
-    max-height: 306px;
+    max-height: auto;
     gap: 40px;
     border-radius: 24px;
+    width: auto;
 
     
   
@@ -202,7 +200,7 @@ max-height: 342px;
 }
 .rev-info{
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     gap: 12px;
     max-height: 46px;
 
@@ -215,7 +213,75 @@ max-height: 342px;
 .reviewer-det{
     gap: 2px;
 }
+/* get in touch section styles */
+.get-in-touch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
 
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.dm-me{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 19px;
+    padding: 0 0;
+    max-width: 497px;
+    height: auto;
+    max-height: 490px;
+    width: 100%;
+
+}
+.dm-me label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+    line-height: 120%;
+    color:#000000;
+    
+    width: fit-content;
+    
+
+
+}
+#email,#name{
+    box-sizing: border-box;
+   
+   
+   padding: 20px 32px;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   border:1px solid #D6DDED;
+   max-width: 497px;
+   max-height: 70px;
+   
+}
+#message{
+    box-sizing: border-box;
+    max-width: 497px;
+    height: 167px;
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border:1px solid #D6DDED;
+
+
+}
+.get-in-touch h2 {
+    margin: 0;
+    font-size: 97px;
+    line-height: 120%;
+    color: #000000;
+    width: 100%;
+    max-width: 528px;
+}
 
 
 /* shared  styles */
