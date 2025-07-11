@@ -104,7 +104,7 @@ header {
     background-color: #4d47ff2e;
     
     max-width: 1140px;
-    max-height: auto;
+   
     gap: 40px;
     border-radius: 24px;
     width: auto;
@@ -402,7 +402,7 @@ max-height: 342px;
 
 .logo {
     max-width: 99px;
-    font-size: 34;
+    font-size: 34px;
     font-weight: 800;
     line-height: 150%;
 }
