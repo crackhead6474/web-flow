@@ -1,3 +1,10 @@
+/* main styles */
+main{
+    margin:116px auto 0;
+    padding: 0 150px;
+    max-width: 1140px;
+    
+}
 /* nav styles */
 
 
@@ -8,12 +15,15 @@ nav {
     justify-content: space-between;
     padding: 50px 0;
     width: 100%;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 
 /* header styles */
 header {
     padding: 0 150px;
+
     background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+
 }
 
 /* banner styles */
@@ -25,10 +35,44 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+
     width: 100%;
     max-width: 905px;
-    margin:158px auto 0;
+    margin: 158px auto 0;
+}
+/* action styles */
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.action-content {
+    max-width: 517px;
+    margin-right: 50px;
+    padding: 0 50px;
+
+}
+.action h3 {
+    font-size: 42px;
+}
+.action-image {
+    width: 100%;
+    max-width: 403px;
+    height: 100%;
+    max-height: 328px;
+    border-radius: 48px;
+}
+.action p{
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size :24px;
+    color:#25243274;
+    margin: 24px 0 48px;
+}
+.action button {
+    width: 229px;
+    height: 48px;
+    background-color: #4E47FF;
 }
 
 
@@ -80,9 +124,10 @@ header {
 
 .banner h4 {
     font-size: 65px;
-    
+
 
 }
+
 nav h3 {
-    max-width :99px; 
+    max-width: 99px;
 }
