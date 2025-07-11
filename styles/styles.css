@@ -2,7 +2,7 @@
 main{
     margin:116px auto 0;
     padding: 0 150px;
-    max-width: 1140px;
+    
     
 }
 /* nav styles */
@@ -14,8 +14,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
-    width: 100%;
-    margin: 0 auto;
+    width: 100% ;
+    margin: 0 auto 158px;
+    
 }
 
 /* header styles */
@@ -23,6 +24,7 @@ header {
     padding: 0 150px;
 
     background-image: url(/B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-size: cover;
 
 }
 
@@ -38,22 +40,32 @@ header {
 
     width: 100%;
     max-width: 905px;
-    margin: 158px auto 0;
+    margin: 0 auto 152px;
 }
 /* action styles */
 .action {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:132px 125px 176px 77px ;
+    width: fit-content;
+
+
+    
+    
     }
 .action-content {
     max-width: 517px;
-    margin-right: 50px;
-    padding: 0 50px;
+    margin: 62.5px 220px 0;
+    
+     width:100%;
+
+    
 
 }
 .action h3 {
     font-size: 42px;
+    margin-bottom: 23px;;
 }
 .action-image {
     width: 100%;
@@ -73,6 +85,70 @@ header {
     width: 229px;
     height: 48px;
     background-color: #4E47FF;
+}
+/* joined user styles */
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 173px 127px 160px;
+    padding: 50px 142px;
+
+    background-color: #4d47ff2e;
+    max-width: 1140px;
+    max-height: 306px;
+    gap: 40px;
+    border-radius: 24px;
+
+    
+  
+}
+.ju{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 158px;
+    padding: 0 0;
+    max-width: 856px;
+    max-height: 206px;
+    
+
+    
+
+    
+   
+}
+.ju-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+    max-width: 180px;
+    
+    
+}
+
+#joined{
+    font-size: 38px;
+}
+.ju h3{
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color:#5049FF;
+    margin-bottom: 40px;
+    max-width: 856px;
+    max-height: 45px;
+
+}
+.ju p{
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #00000077;
+    
+
 }
 
 
@@ -97,7 +173,6 @@ header {
 
 .font-inter {
     font-family: Inter, sans-serif;
-    font-weight: Black;
     font-size: 34px;
     color: #5049FF;
 }
@@ -131,3 +206,4 @@ header {
 nav h3 {
     max-width: 99px;
 }
+
