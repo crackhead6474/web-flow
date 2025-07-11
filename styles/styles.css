@@ -1,4 +1,7 @@
 /* main styles */
+body{
+    background-color: #d6dded71;
+}
 main{
     margin:116px auto 0;
     padding: 0 150px;
@@ -47,8 +50,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:132px 125px 176px 77px ;
-    width: fit-content;
+    margin:132px auto 176px auto ;
+    
+    
+    gap: 50px;
+    max-width: 1140px;
+    width:100%;
+    box-sizing: border-box;
+
+    
 
 
     
@@ -58,7 +68,7 @@ header {
     max-width: 517px;
     margin: 62.5px 220px 0;
     
-     width:100%;
+     
 
     
 
@@ -68,10 +78,10 @@ header {
     margin-bottom: 23px;;
 }
 .action-image {
-    width: 100%;
+    
     max-width: 403px;
     height: 100%;
-    max-height: 328px;
+    height: auto;
     border-radius: 48px;
 }
 .action p{
@@ -96,6 +106,7 @@ header {
     padding: 50px 142px;
 
     background-color: #4d47ff2e;
+    
     max-width: 1140px;
     max-height: 306px;
     gap: 40px;
@@ -150,6 +161,61 @@ header {
     
 
 }
+/* container2 styles */
+.container2{
+    margin:0 150px 137px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    
+    
+}
+.container2 h2{margin-bottom: 50px;
+font-size: 42px;
+color:#252432;
+max-width: 1140px;
+}
+.rev-sec{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+max-width: 1140px;
+max-height: 342px;
+}
+.review {
+    
+    padding: 24px;
+    gap: 24px;
+
+    background-color: #ffffff;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+
+    max-width: 366.67px;
+    
+}
+.rating{
+    display: flex;
+    max-width: 116px;;
+}
+.rev-info{
+    display: flex;
+    align-items: left;
+    gap: 12px;
+    max-height: 46px;
+
+}
+.rev-info img{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 9999px;
+}
+.reviewer-det{
+    gap: 2px;
+}
+
 
 
 /* shared  styles */
@@ -182,6 +248,16 @@ header {
     font-weight: bold;
     color: #252432;
 }
+.body-strong{
+   font-weight: 700;
+   color: #6b7280b5;
+
+}
+.body-base{
+     font-weight: 400; 
+      color: #9CA3AF;
+}
+
 
 /* individual styles */
 #nav-btn {
