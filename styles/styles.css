@@ -442,3 +442,34 @@ header {
     font-weight: 800;
     line-height: 150%;
 }
+
+/* final alignment */
+.act-sec {
+    margin: 0 124px 176px 77px;
+}
+
+.con1-sec {
+    margin: 0 173px 127px 160px;
+}
+
+.con2-sec {
+    margin: 0 150px 137px;
+}
+
+.get-in-touch-sec {
+    margin: 0 150px 14px;
+}
+/* effects */
+.btn-primary:hover{
+    background-color: #9CA3AF;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+}
+.review:hover{
+    background-color: #9CA3AF;
+    
+    
+}
+
